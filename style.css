@@ -1,0 +1,27 @@
+body {
+    color: white;
+    background-color: rgb(39, 39, 38);
+}
+
+#arrows {
+    background-color: yellowgreen;    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px;  
+    border-radius: 100px;  
+}
+
+#arrows span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgb(29, 29, 29);
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;    cursor: pointer;
+    z-index: 999;
+}
